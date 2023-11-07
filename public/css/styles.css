@@ -8,14 +8,16 @@ body, h1, h2, h3, ul, li, a {
 
 /* Estilização do header */
 header {
-    background-color: #333;
-    color: white;
+    background-color: yellow;
+    color: black;
     padding: 1rem 0;
     text-align: center;
 }
 
 header h1 {
     margin-bottom: 0.5rem;
+    margin-left: -74rem ;
+    font-size: 20px;
 }
 
 /* Estilização do menu */
@@ -31,10 +33,10 @@ nav li {
 }
 
 nav a {
-    color: white;
+    color: black;
     padding: 0.5rem 1rem;
     border-radius: 5px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease;  
 }
 
 nav a:hover {
@@ -44,6 +46,7 @@ nav a:hover {
 /* Estilo do conteúdo principal */
 main {
     padding: 2rem;
+    color: white;
 }
 
 /* Estilo para ocultar elementos */
@@ -128,3 +131,26 @@ main {
 .icon-btn.delete:hover {
     color: #b02130; /* Cor vermelha ao passar o mouse */
 }
+
+/* estilizar home */
+
+body{
+    background-color: black;
+}
+ 
+h2 {
+    text-align: center;
+
+}
+
+#sessao1 p{
+    border: 1px solid red;
+
+}
+#paragrafo{
+    position: absolute;
+    bottom: 0;
+    right: 0.5rem;
+    color: white;
+}
+
