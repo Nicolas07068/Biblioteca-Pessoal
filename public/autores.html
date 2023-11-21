@@ -20,21 +20,20 @@
                 <li><a href="/editora.html">Editora</a></li>
             </ul>
         </nav>
-        <h1>Livros</h1>
+        <h1>Autores</h1>
     </header>
 
     <main>
-<h2>Lista de Livros</h2>
+<h2>Lista de Autores</h2>
 <button class="icon-btn" id="addBookBtn">
     <i class="fas fa-plus"></i> Adicionar
 </button>
     <table>
         <thead>
             <tr>
-                <th>Título</th>
-                <th>Autor</th>
-                <th>Data de Publicação</th>
-                <th>Ações</th>
+                <th>Nome</th>
+                <th>Biografia</th>
+                <th>Data de Nascimento</th>
             </tr>
         </thead>
         <tbody id="listaLivros"></tbody>
@@ -44,11 +43,11 @@
     <!-- Popup para Adicionar/Atualizar Livro -->
     <div id="bookPopup" class="hidden">
         <form id="bookForm">
-            <h3>Adicionar/Atualizar Livro</h3>
-            <input type="hidden" id="id_livro">
-            <input type="text" id="titulo" placeholder="Título" required>
-            <input type="text" id="autor" placeholder="Autor" required>
-            <input type="date" id="dataPublicacao" placeholder="Data de Publicação" required>
+            <h3>Adicionar/Atualizar Autores</h3>
+            <input type="hidden" id="id_autor">
+            <input type="text" id="titulo" placeholder="Nome" required>
+            <input type="text" id="autor" placeholder="Biografia" required>
+            <input type="date" id="dataPublicacao" placeholder="Data de Nascimento" required>
             <button type="submit">Salvar</button>
             <button type="button" id="closePopupBtn">Fechar</button>
         </form>

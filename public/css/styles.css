@@ -8,7 +8,7 @@ body, h1, h2, h3, ul, li, a {
 
 /* Estilização do header */
 header {
-    background-color: yellow;
+    background-color: #008EFA;
     color: black;
     padding: 1rem 0;
     text-align: center;
@@ -46,7 +46,7 @@ nav a:hover {
 /* Estilo do conteúdo principal */
 main {
     padding: 2rem;
-    color: white;
+    color: black;
 }
 
 /* Estilo para ocultar elementos */
@@ -135,7 +135,7 @@ main {
 /* estilizar home */
 
 body{
-    background-color: black;
+    background-color: #00e5fa;
 }
  
 h2 {
@@ -143,14 +143,10 @@ h2 {
 
 }
 
-#sessao1 p{
-    border: 1px solid red;
-
-}
 #paragrafo{
     position: absolute;
     bottom: 0;
     right: 0.5rem;
-    color: white;
+    color: black;
 }
 
